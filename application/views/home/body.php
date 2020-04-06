@@ -15,12 +15,13 @@
         <?php foreach($content_satu as $ctn) : ?>
             <h1 class="display-4 text-center">Kenapa Harus Kami?</h1>
             <p class="lead lead-dua"><?php echo $ctn->content?></p>
+            <br>
         <?php endforeach; ?>
     </div>
 </div>
 <!-- Last Jumbo Dua -->
 <!-- Container -->
-<div class="container con-panel">
+<div class="container con-panel" style="margin-top: 100px">
     <!-- Panel -->
     <div class="row justify-content-center">
         <div class="col-10 info-panel">
